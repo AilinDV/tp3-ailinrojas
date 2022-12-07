@@ -1,0 +1,451 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-padding: 120px;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100%;
+
+
+}
+
+ul{
+    list-style: none;
+}
+
+.comprar-conocer {
+    text-align: center;
+    background-color: #350e45;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    z-index: 10;
+    height: 50px;
+    margin: 5px;
+}
+
+a{
+    tab-size: 24px;
+    text-decoration: none;
+    color: darkgray;
+}
+
+h1{
+    font-family: 'Big Shoulders Stencil Display';
+    color: #350e45;
+    font-size: 10rem;
+    margin: 6rem 0 0.2rem 0;
+    z-index: 1;
+
+
+}
+
+h4{
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+body{
+    font-family:'Rubik', sans-serif;
+    background-color: #9d1561;
+}
+
+nav{
+    z-index: 1000;
+/*     height: 100px;
+ */    display: flex;
+    align-items: center;
+    position: fixed;
+    flex-direction: row;
+    background-color: #341346;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+
+}
+
+.contenedor_nav{
+    width: 80%;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    float: right;
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+    
+}
+
+
+.logo{
+    width: 20%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.menu li{
+        margin: 20px 0 20px 60px;
+}
+
+.menu li a{
+    font-family:'Rubik', sans-serif;
+    color: #87C1C6;
+    font-size: 18px;
+    transition: all 300ms ease;
+}
+
+.menu li a:hover{
+    color: #CBCBCB;
+}
+
+.vulcano{
+    display: flex;
+    flex-direction: column;
+    background: url(img/vulcano.jpg) no-repeat center center scroll;
+    background-size: auto;
+    height: 790px;
+    background-position: bottom;
+    padding-top: 26rem;
+    padding-left: 49rem;
+    text-align: right;
+    padding-right: 7rem;
+    justify-content: right;
+    width: 100%;
+}
+
+
+.vulcano p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.vulcano a{
+    color: #341346;
+}
+
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+}
+
+.img_header{
+    position: absolute;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.forma_der{
+    position: absolute;
+    top: 720px;
+    right: -10px;
+width: 20%;
+}
+
+.forma_izq{
+    position: absolute;
+    top: 720px;
+    left: -10px;
+width: 20%;
+}
+
+
+.centrado {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.centrado h2{
+    color: #75bfc8 ;
+    font-size: 3.5rem;
+}
+
+.centrado h3{
+    color: #75bfc8;
+    font-weight: 300 ;
+    font-size: 2.7rem ;
+
+}
+
+
+
+.centrado h4{
+    padding-top: 2rem;
+    color: #75bfc8;
+    font-size: 2rem;
+}
+
+.centrado p{
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 80%;
+}
+
+
+
+.servicios{
+    padding: 6rem 0 6rem 0;
+}
+
+
+.serv{
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+
+    
+}
+
+.serv div{
+    width: 30%;
+}
+
+.serv img{
+    width: 40%;
+    align-self: center;
+}
+
+.serv article{
+display: flex;
+flex-direction: column;
+margin: 1rem;
+
+}
+
+.serv h3{
+    text-align: center;
+    color: #350e45;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-top: 1rem;
+
+
+    }
+
+    .serv p{
+        padding-top: 1rem;
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: lighter;
+        line-height: 1.5;
+    }
+
+    .serv a{
+        padding-top: 0.5rem;
+
+        display: block;
+        margin: auto;
+        
+    }
+
+
+
+    footer{
+padding-bottom: 1rem;
+background-color: #341346;
+width: 100%;
+min-height: 90px;
+
+
+    }
+
+
+    footer img{
+        width: 20%;
+    }
+
+    .iconos-redes{
+        display: flex;
+justify-content: center;
+width: 80%;
+margin: auto;    
+}
+    
+    .iconos-redes li{
+        margin: 0.5rem;
+    }
+
+    .iconos-redes li a img{
+        display: flex;
+justify-content: center;
+width: 2rem;
+margin: auto;    
+}
+
+footer h5{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forma2_der{
+    position: absolute;
+bottom: -3401px;    right: -10px;
+width: 20%;
+}
+
+.forma2_izq{
+    position: absolute;
+    bottom: -3401px;    left: -10px;
+width: 20%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #341346;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.contenedor h2{
+text-align: center;
+font-weight: 400;
+font-size: 3rem;
+color: #9d1561;
+padding-bottom: 1rem;
+
+}
+
+.formulario label{
+    color: #75bfc8;
+    margin-bottom: 0.3rem;
+}
+
+.formulario input{
+    border-radius: 15px;
+    height: 40px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.formulario textarea{
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario button{
+    width: 50%;
+margin: auto;
+text-align: center;
+background-color:#9d1561 ;
+border: none;
+padding: 0.5rem;
+border-radius: 10px;
+color: white;
+}
+
+.promociones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.promociones article{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 6rem;
+    background-color: #350e45;
+
+}
+
+.texto_promo{
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    
+}
+
+.texto_promo h3{
+    font-size: 2rem;
+    font-weight: 300;
+    
+}
+
+.texto_promo p{
+    padding: 1rem;
+}
+
+.texto_promo a{
+    background-color: #9d1561;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+
+
+.carousel{
+}
+
+.carousel__slide{
+ max-width: 30%;
+ padding: 1rem;
+
+
+}
+
+
+
+.carousel__slide img:hover{
+}
+
+.titular{
+    color: #75bfc8;
+    font-weight: 300;
+    font-size: 2.7rem;
+    text-align: center;
+
+}
+
+section {
+    padding-bottom: 3rem;
+}
